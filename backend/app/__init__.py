@@ -3,9 +3,9 @@ from flask import Flask
 app = Flask(__name__)
 
 
-@app.route('/test')
-def test():
-    return 'Test message'
+@app.route('/')
+def default():
+    return 'Welcome to the blockchain project'
 
 
 app.run()

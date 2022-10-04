@@ -11,3 +11,10 @@ A new blockchain
 pip3 install -r requirements.txt
 ```
 
+**Run the application and API**
+Make sure the virtual environment is running
+```
+python -m backend.app
+```
+ 
+
