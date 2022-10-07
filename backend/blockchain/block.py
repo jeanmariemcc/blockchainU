@@ -1,8 +1,8 @@
 import time
 import sys
-sys.path.append('backend')
-from util.crypto_hash import crypto_hash
-#from backend.util.crypto_hash import crypto_hash
+#sys.path.append('backend')
+#from util.crypto_hash import crypto_hash
+from backend.util.crypto_hash import crypto_hash
 
 
 GENESIS_DATA = {
